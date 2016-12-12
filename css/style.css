@@ -1,0 +1,141 @@
+body {
+  font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, sans-serif;
+}
+html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  vertical-align:baseline;
+}
+article, header, footer, aside, figure, figcaption, nav, section {
+  display:block;
+}
+body {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+ol, ul {
+  list-style: none;
+  list-style-type: none;
+}
+html{
+	font-size: 15px;
+}
+.mega-menu {
+  color: #fff;
+  width: 400px;
+  float: left;
+  font-size: 15px;
+}
+
+.mega-menu:before,.mega-menu:after {
+  content: "";
+  display: table;
+}
+
+.mega-menu:after {
+  clear: both;
+}
+
+.mega-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mega-menu a:hover {
+  text-decoration: underline;
+}
+
+.mega-menu__col1,.mega-menu__col2 {
+  width: 200px;
+  float: left;
+  height: 170px;
+  padding-top: 30px;
+}
+
+.mega-menu__col1 {
+  background: #002144;
+}
+
+.mega-menu__col2 {
+  background: #002950;
+}
+
+.mega-menu__group__head {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 50px;
+  cursor: pointer;
+  background: url(../img/dot_1.png) no-repeat 30px center;
+}
+
+.mega-menu__group__head--on {
+  background: url(../img/dot_2.png) no-repeat 30px center #264260;
+}
+
+.mega-menu__group__head2 {
+  background: url(../img/dot_3.png) no-repeat 30px 5px;
+  display: inline-block;
+}
+
+.mega-menu__group__head2 a {
+  display: block;
+  padding: 0px 0px 0 50px;
+  line-height: 1.5;
+}
+
+.mega-menu__group__wrapper {
+  position: relative;
+  display: none;
+}
+
+.mega-menu__group__data {
+  background: #022657;
+  font-size: 15px;
+  position: absolute;
+  top: -36px;
+  left: -246px;
+  width: 246px;
+  padding: 25px 30px 20px 0;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+.mega-menu__group__data:before,.mega-menu__group__data:after {
+  content: "";
+  display: table;
+}
+
+.mega-menu__group__data:after {
+  clear: both;
+}
+
+.mega-menu__group__data--col2 {
+  left: auto;
+  right: -246px;
+}
+
+.mega-menu__group__data__col {
+  width: 100%;
+  margin-bottom: 11px;
+}
+
+.mega-menu__group__data__sub {
+  background: url(../img/dot_3.png) no-repeat left 6px;
+  padding: 0 30px 0 20px;
+  line-height: 1.5;
+  margin-bottom: 13px;
+}
+
+.mega-menu__group__data__sub a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mega-menu__group__data__sub a:hover {
+  text-decoration: underline;
+}
