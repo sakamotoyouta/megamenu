@@ -16,6 +16,7 @@ body {
   line-height: 1;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  width: 100%;
 }
 ol, ul {
   list-style: none;
@@ -24,11 +25,23 @@ ol, ul {
 html{
 	font-size: 15px;
 }
+
+h1{
+	font-size: 2.5em;
+	text-align: center;
+	padding: 20px 0;
+}
+p{
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 .mega-menu {
   color: #fff;
   width: 400px;
-  float: left;
   font-size: 15px;
+  margin: 0 auto;
 }
 
 .mega-menu:before,.mega-menu:after {
@@ -70,15 +83,15 @@ html{
   line-height: 35px;
   padding-left: 50px;
   cursor: pointer;
-  background: url(../img/dot_1.png) no-repeat 30px center;
+  background: url(../image/dot_1.png) no-repeat 30px center;
 }
 
 .mega-menu__group__head--on {
-  background: url(../img/dot_2.png) no-repeat 30px center #264260;
+  background: url(../image/dot_2.png) no-repeat 30px center #264260;
 }
 
 .mega-menu__group__head2 {
-  background: url(../img/dot_3.png) no-repeat 30px 5px;
+  background: url(../image/dot_3.png) no-repeat 30px 5px;
   display: inline-block;
 }
 
